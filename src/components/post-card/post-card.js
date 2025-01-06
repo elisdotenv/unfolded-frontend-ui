@@ -50,8 +50,8 @@ const PostCard = () => {
   return (
     <>
       <div className={`p-[2rem] border-[1.5px] border-purple-800 rounded-lg`}>
-        <h1 className={`text-yellow-700`}> TITLE is {posts?.attributes?.Title} </h1>
-        <p className={`text-blue-700`}>BRIEF is {posts?.attributes?.Brief} </p>
+        <h1 className={`text-yellow-700`}> TITLE is {posts[0]?.attributes?.Title} </h1>
+        <p className={`text-blue-700`}>BRIEF is {posts[0]?.attributes?.Brief} </p>
       </div>
     </>
   );
