@@ -12,7 +12,7 @@ const PostCard = () => {
     const fetchPosts = async () => {
       /* Axios configuration object */
       const config = {
-        url: 'https://tremendous-car-d034f2b0fd.strapiapp.com/api/blog-post?populate=*',
+        url: 'https://tremendous-car-d034f2b0fd.strapiapp.com/api/blog-posts?populate=*',
         method: 'GET',
       };
 
