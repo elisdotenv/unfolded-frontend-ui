@@ -4,8 +4,8 @@ const PostCard = () => {
   return (
     <>
       <div className={`p-[2rem] border-[1.5px] border-purple-800 rounded-lg`}>
-        <h1>Title: {Title}</h1>
-        <p>Brief: {Brief}</p>
+        <h1>Title is {Title}</h1>
+        <p>Brief is {Brief}</p>
       </div>
     </>
   );

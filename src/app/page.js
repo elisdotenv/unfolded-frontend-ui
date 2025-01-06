@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div className={`w-screen h-screen flex flex-col gap-4 items-center justify-center`}>
-        <p className={`text-pink-600`}> we're live baby! </p>
+        <p className={`text-pink-600`}> we&apos;re live baby </p>
         <PostCard />
       </div>
     </>
