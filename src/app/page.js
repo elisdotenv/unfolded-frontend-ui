@@ -1,5 +1,4 @@
 import PostCard from '@/components/post-card/post-card';
-import Image from 'next/image';
 
 export default function Home() {
   return (
