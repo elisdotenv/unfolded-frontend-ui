@@ -1,27 +1,68 @@
+/* Global CSS file (Takes Effects to all other files) it is imported inside of the layout.js */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Custom font variable setup */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  /* Fonts */
+  --font-geist-sans: 'Geist Sans', sans-serif; /* Ensure this matches the localFont variable */
+  --font-satoshi-regular: 'Satoshi', sans-serif; /* Ensure this matches the localFont variable */
+  --font-satoshi-medium: 'Satoshi', sans-serif; /* Ensure this matches the localFont variable */
+  --font-satoshi-bold: 'Satoshi', sans-serif; /* Ensure this matches the localFont variable */
+  --font-satoshi-black: 'Satoshi', sans-serif; /* Ensure this matches the localFont variable */
+  --font-clash-regular: 'ClashGrotesk', sans-serif; /* Ensure this matches the localFont variable */
+  --font-clash-medium: 'ClashGrotesk', sans-serif; /* Ensure this matches the localFont variable */
+  --font-clash-semibold: 'ClashGrotesk', sans-serif; /* Ensure this matches the localFont variable */
+  --font-clash-bold: 'ClashGrotesk', sans-serif; /* Ensure this matches the localFont variable */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Main Background Color */
+  --bg: '#ffcacb';
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  font-size: 16px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Tailwind customizations */
+.font-geist {
+  font-family: var(--font-geist-sans);
+}
+
+.font-satoshi-regular {
+  font-family: var(--font-satoshi-regular);
+}
+
+.font-satoshi-medium {
+  font-family: var(--font-satoshi-medium);
+}
+
+.font-satoshi-bold {
+  font-family: var(--font-satoshi-bold);
+}
+
+.font-satoshi-black {
+  font-family: var(--font-satoshi-black);
+}
+
+.font-clash-regular {
+  font-family: var(--font-clash-regular);
+}
+
+.font-clash-medium {
+  font-family: var(--font-clash-medium);
+}
+
+.font-clash-semibold {
+  font-family: var(--font-clash-semibold);
+}
+
+.font-clash-bold {
+  font-family: var(--font-clash-bold);
+}
+
+/* Disable the Default X-axis and Y-axis Browser Scrollbar */
+::-webkit-scrollbar {
+  display: none;
 }
