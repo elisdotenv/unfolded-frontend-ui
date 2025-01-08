@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@strapi/blocks-react-renderer": "^1.0.1",
+    "@tailwindcss/typography": "^0.5.16",
     "@vercel/analytics": "^1.4.1",
     "@vercel/speed-insights": "^1.1.0",
     "axios": "^1.7.9",
+    "framer-motion": "^11.16.1",
     "next": "14.2.15",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-icons": "^5.4.0"
   },
   "devDependencies": {
     "eslint": "^8",
