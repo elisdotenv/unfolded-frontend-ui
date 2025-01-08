@@ -7,6 +7,7 @@ export default function Home() {
         <p className={`text-pink-600`}> we&apos;re live baby </p>
         <PostCard />
         <p className={`text-lime-500`}>Added Context to observe changes</p>
+        <p>This is an updated UI (wednesday)</p>
       </div>
     </>
   );
