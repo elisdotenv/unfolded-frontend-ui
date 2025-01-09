@@ -1,0 +1,30 @@
+/* Mobile-First Responsive Design */
+/* --- Cover Image */
+.Image {
+  box-sizing: border-box;
+  @apply block w-full max-w-full h-[180px] mt-[1rem] rounded-xl object-cover overflow-clip;
+}
+
+/* --- Author Name */
+.AuthorName {
+  @apply text-[14px] font-primary font-semibold text-[#fcfdfd];
+}
+/* --- Time */
+.Time {
+  @apply inline-flex items-center text-[13px] text-[#a8b3cf] font-primary font-medium;
+}
+
+/* --- Title */
+.Title {
+  @apply text-[#fcfdfd] font-primary font-semibold text-[1.25rem] leading-5 my-[0.75rem];
+}
+
+/* --- Go Button */
+.GoBtn {
+  @apply bg-[#fdfcfd] flex items-center justify-center border-[1px] text-[#000] px-[0.625rem] rounded-[6px] text-[15px] h-[34px] leading-[1.125rem];
+}
+
+/* --- Description */
+.Description {
+  @apply mt-[0.375rem] break-words font-secondary font-normal text-[15px] leading-[1.3rem] text-[#cfd6e6];
+}

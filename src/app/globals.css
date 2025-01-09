@@ -17,7 +17,7 @@
   --font-clash-bold: 'ClashGrotesk', sans-serif; /* Ensure this matches the localFont variable */
 
   /* Main Background Color */
-  --bg: '#ffcacb';
+  --bg: '#252525';
 }
 
 body {
