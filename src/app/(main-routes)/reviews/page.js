@@ -1,8 +1,3 @@
-'use client';
-import styles from './page.module.css';
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
-
 const ReviewsPage = () => {
   return (
     <>
