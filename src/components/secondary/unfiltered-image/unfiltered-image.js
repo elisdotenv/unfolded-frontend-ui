@@ -5,7 +5,7 @@ export const UnfilteredPostImage = ({ alternativeText, ImageURL, Tag }) => {
     <>
       {/* Image and Tag */}
       <div className={`relative`}>
-        <div className={`${styles.filter}`}></div>
+        <div></div>
         <Image
           layout='responsive'
           priority={true}
@@ -34,7 +34,7 @@ export const UnfilteredInlineImage = ({ alternativeText, ImageURL, width, height
         <p className={`font-secondary italic  text-[.875rem] text-center leading-[22px] m-0 text-grayed text-lightGray`}>
           {capitalizeFirstLetter(alt)}
         </p>
-        <div className={`${styles.alt} text-[#f6f3ef] text-[.75rem] p-[0.375rem] z-30 font-normal absolute right-[0.5rem] top-0`}>
+        <div className={`text-[#f6f3ef] text-[.75rem] p-[0.375rem] z-30 font-normal absolute right-[0.5rem] top-0`}>
           {captionText}
         </div>
       </div>

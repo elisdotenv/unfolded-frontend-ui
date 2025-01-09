@@ -1,8 +1,8 @@
 'use client';
 import { useState } from 'react';
+import styles from './page.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from './page.module.css';
 import { truncateDescription, truncateTitle } from '@/utils/truncations-functions';
 import { enhancedlastUpdate } from '@/utils/date-functions';
 import { FaArrowUpRightFromSquare, FaBookmark, FaRegBookmark, FaLink, FaCopy } from 'react-icons/fa6';

@@ -1,3 +1,4 @@
+import styles from '.page.module.css';
 import { MdFormatQuote } from 'react-icons/md';
 
 export const BlockQuoteWrapper = ({ children, RefSource }) => {

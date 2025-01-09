@@ -1,6 +1,5 @@
 import { BlocksRenderer } from '@strapi/blocks-react-renderer';
 import styles from './page.module.css';
-import Link from 'next/link';
 import { BsFillPinAngleFill } from 'react-icons/bs';
 
 export const KeyPointsWrapper = ({ KeyPointsContext }) => {
