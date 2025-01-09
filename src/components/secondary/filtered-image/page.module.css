@@ -1,0 +1,8 @@
+.filter::before {
+  @apply z-20 h-[50%] w-full absolute;
+  content: '';
+  display: block;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, #191919, #191919 10%, rgba(25, 25, 25, 0) 90%);
+}

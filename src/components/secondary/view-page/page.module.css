@@ -1,0 +1,33 @@
+/* Unordered Lists */
+.unorderedList {
+  list-style: none;
+  counter-reset: list-counter;
+  @apply relative flex flex-col gap-[0.875rem] md:gap-[1rem] px-[0.75rem] py-[1rem] m-0 md:ml-[2rem];
+}
+
+.unorderedList li {
+  @apply m-0 text-[#fffdfa] font-medium px-[1rem] lg:px-0 font-primary text-[1.125rem] lg:text-[1.125rem];
+  position: relative;
+  counter-increment: list-counter;
+}
+
+.unorderedList li::before {
+  content: ' ';
+  @apply absolute -left-[1rem] top-1/2 h-[8px] w-[8px] rounded-full inline-flex items-center justify-center bg-[#eae6e0];
+}
+
+/* Ordered Lists */
+.orderedList {
+  list-style: none;
+  counter-reset: list-counter;
+  @apply px-[1rem] lg:px-0 relative flex flex-col gap-[6px] md:gap-[1rem] p-0 m-0;
+}
+.orderedList li {
+  @apply m-0 text-[#fffdfa] font-medium font-primary text-[1.125rem] px-[1rem] lg:px-0 lg:text-[1.125rem];
+  position: relative;
+  counter-increment: list-counter;
+}
+.orderedList li::before {
+  content: counter(list-counter);
+  @apply font-primary font-semibold mr-[0.5rem] px-[1rem] lg:px-0 inline-flex items-center justify-center text-[1.25rem] lg:text-[1.125rem] text-[#fffdfa];
+}

@@ -3,7 +3,7 @@ import styles from './page.module.css';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import axios from 'axios';
-import PrimaryPostMobile from '@/components/primary-post-mobile/primary-post-mobile';
+import PrimaryPostMobile from '@/components/primary/primary-post-mobile/primary-post-mobile';
 
 const GadgetsPage = () => {
   const [blogPosts, setBlogPosts] = useState([]);

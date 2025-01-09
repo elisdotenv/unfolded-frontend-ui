@@ -21,7 +21,7 @@
 
 /* --- Go Button */
 .GoBtn {
-  @apply bg-[#fdfcfd] flex items-center justify-center border-[1px] text-[#000] px-[0.625rem] rounded-[6px] text-[15px] h-[34px] leading-[1.125rem];
+  @apply bg-[#fdfcfd] flex items-center justify-center border-[1px] text-[#000] px-[0.625rem] rounded-[6px] text-[15px] h-[34px] leading-[1.125rem] font-primary font-medium;
 }
 
 /* --- Description */
