@@ -49,7 +49,7 @@ const GadgetsPage = () => {
               ImageURL={p?.attributes?.CoverImage?.data?.attributes?.url}
               alt={p?.attributes?.CoverImage?.data?.attributes?.alternativeText || ''}
               title={p?.attributes?.Title}
-              brief={p?.attributes?.Brief}
+              description={p?.attributes?.Brief}
               author={p?.attributes?.AuthorInfo?.AuthorName}
               authorImageURL={p?.attributes?.AuthorImage?.data?.attributes?.url}
               time={p?.attributes?.updatedAt}

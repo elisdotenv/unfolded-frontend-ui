@@ -19,10 +19,10 @@ export const truncateDescription = (title) => {
 
   const trimmedTitle = title.replace(/\s+/g, '');
   // 35
-  if (trimmedTitle.length <= 60) return title;
+  if (trimmedTitle.length <= 80) return title;
 
   // 40
-  const truncated = title.slice(0, 60);
+  const truncated = title.slice(0, 80);
   const lastSpaceIndex = truncated.lastIndexOf(' ');
 
   // --- If there are no spaces, just return the first 100 characters

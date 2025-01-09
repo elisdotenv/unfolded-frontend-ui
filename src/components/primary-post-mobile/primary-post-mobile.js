@@ -33,11 +33,14 @@ const PrimaryPostMobile = ({ href, alt, ImageURL, title, description, time, auth
     setIsBookMarked(!isBookMarked);
   };
 
+  console.log(`Description Text ↓↓↓`);
+  console.log(description);
+
   return (
     <>
       <div className={`relative pb-[1.25rem]`}>
         <div
-          className={`${styles.postWrapper} bg-gradient-to-b from-[#333333] to-transparent p-[1rem] rounded-t-2xl border-t-[1.25px] border-t-[#a8b3cf] block`}>
+          className={`${styles.postWrapper} bg-gradient-to-b from-[#333333] to-transparent p-[1rem] rounded-t-2xl border-t-[1px] border-t-[#a8b3cf] block`}>
           {/* 1. --- Post Header Content */}
           <div className={`flex justify-between items-center`}>
             {/* --- Author profile & Updated time */}
@@ -81,8 +84,6 @@ const PrimaryPostMobile = ({ href, alt, ImageURL, title, description, time, auth
             <div className={`${styles.TitleDescriptionTag}`}>
               {/* Title */}
               <h1 className={`${styles.Title}`}>{truncateTitle(title)}</h1>
-              {/* Descriptions */}
-              <p className={`${styles.DescriptionMd} hidden`}>{truncateDescription(description)}</p>
             </div>
 
             {/* --- Image */}
@@ -99,7 +100,7 @@ const PrimaryPostMobile = ({ href, alt, ImageURL, title, description, time, auth
             </div>
 
             {/* --- Descriptions */}
-            <p className={`${styles.Description} md:hidden`}>{truncateDescription(description)}</p>
+            <p className={`${styles.Description}`}>{truncateDescription(description)}</p>
           </div>
           {/* ####### */}
 
