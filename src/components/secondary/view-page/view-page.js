@@ -1,6 +1,5 @@
 import { BlocksRenderer } from '@strapi/blocks-react-renderer';
 import Link from 'next/link';
-import QuoteWrapper from '../quote-wrapper/quote-wrapper';
 import styles from './page.module.css';
 import { FaLightbulb } from 'react-icons/fa';
 import { UnfilteredInlineImage } from '../unfiltered-image/unfiltered-image';
