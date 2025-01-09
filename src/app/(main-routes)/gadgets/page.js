@@ -45,7 +45,7 @@ const GadgetsPage = () => {
         {blogPosts.map((p) => (
           <Link className={`block`} href={`/`} key={p?.id}>
             <PrimaryPostMobile
-              href={`/gadgets/${p?.attributes?.slug}`}
+              href={`/gadgets/${p.attributes.slug}`}
               ImageURL={p?.attributes?.CoverImage?.data?.attributes?.url}
               alt={p?.attributes?.CoverImage?.data?.attributes?.alternativeText || ''}
               title={p?.attributes?.Title}
